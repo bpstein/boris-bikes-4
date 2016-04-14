@@ -15,6 +15,8 @@ describe DockingStation do
     expect(rbike).to be_working
   end
 
+ 
+
 	it { is_expected.to respond_to(:dock).with(1).argument }
 	
   it 'docks something' do
